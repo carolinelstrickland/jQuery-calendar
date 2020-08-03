@@ -10,18 +10,9 @@ function createDivs() {
         let textArea = $("<textarea>").addClass("col-md-10 description");
         let saveBtn = $("<button>").addClass("col-1 saveBtn").html("<i class = \"fas fa-save\"></i>");
         timeBlock.append(hourBlock).append(textArea).append(saveBtn);
-        holder.append(timeBlock);
-
-
-    //     <div class = "row time-block mx-2">
-    //     <div id = "9" class = "col-1 hour">
-    //       9AM 
-    //       <textarea class = "col-md-10 description"></textarea>
-    //       <button class = "btn saveBtn col-md-1"><i class = "fas fa-save"></i></button>
-    //     </div>
-    //   </div>
+        holder.append(timeBlock);   
     }
-}
+};
 
 createDivs();
 
